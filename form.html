@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+	  <meta charset="utf-8">
+    <title>CБС Фармация</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+    <script src="js/animation.js"></script>
+    <script src="js/form.js"></script>
+</head>
+<body onload="doAnimation()">
+    <div class="main">
+        <div class="header">
+            <div class="first_hdr">
+                <div id="logo"><a href="index.html"><img src="img/logo.jpg" alt="Логотип"></a></div>
+                <div class="buttons">
+                    <div class="mail"><a class="refstyle" href="#"><img src="img/mail.jpg" alt="подписка"><br>подписка</br></a></div>
+                    <div class="price"><a class="refstyle" href="#"><img src="img/price.jpg" alt="прайс"><br>прайс</br></a></div>
+                    <div class="orders"><a class="refstyle" href="#"><img src="img/orders.jpg" alt="заказы"><br>заказы</br></a></div>
+                    <div class="shop"><a class="refstyle" href="#"><img src="img/shop.jpg" alt="интернет-магазин"><br>интернет-магазин</br></a></div>
+                    <div class="report"><a class="refstyle" href="#"><img src="img/report.jpg" alt="отчеты"><br>отчеты</a></div>
+                </div>
+            </div>
+            <div class="second_hdr">
+                <div class="login">ЛОГИН</div>
+                <div class="passwd">ПАРОЛЬ</div>
+            </div>
+            <div class="third_hdr">
+                <div class="input"><input class="inputfield" type="text"></div>
+                <div class="input"><input class="inputfield" type="text"></div>
+            </div>
+            <div class="fourth_hdr"><button class="inbtn">ВОЙТИ</button></div>
+            <div class="fifth_hdr">
+                <div class="hdrlinks">
+                    <div><a href="#" class="hdrlinkstyle"> ГАЗЕТА &gt</a></div>
+                    <div><a href="#" style="margin-right: 39px;"class="hdrlinkstyle"> ТОВАРЫ &gt;</a></div>
+                    <div><a href="#" style="margin-right: 55px;" class="hdrlinkstyle"> ПАРТНЕРЫ &gt;</a></div>
+                    <div><a href="#" style="margin-right: 71px;" class="hdrlinkstyle"> ПОДПИСКА &gt;</a></div>
+                    <div><a href="#" style="margin-right: 84px;" class="hdrlinkstyle"> РЕГИСТРАЦИЯ &gt;</a></div>
+                </div>
+            </div>
+            <div class="six_hdr">
+                <div class="news">Регистрация</div>
+                <div class="yellowstr"></div>
+            </div>
+        </div>
+            <div class="mainpage">
+            <div class="left_menu borderinside">
+                <div class="menuicon"><img src="img/menuicon.jpg" alt="Иконка меню"></div>
+                <nav><div class="menustyle">
+                    <div class="menubtn"><a href="index.html" class="link">&gt; ГЛАВНАЯ СТРАНИЦА</a></div>
+                    <div class="menubtn"><a href="form.html" class="link">&gt; РЕГИСТРАЦИЯ</a></div>
+                    <div class="menubtn"><a href="redirect.html" class="link">&gt РЕДИРЕКТ</a></div>
+                    <div class="menubtn"><a href="#" class="link">&gt; ПРАЙС-ЛИСТ</a></div>
+                    <div class="menubtn"><a href="#" class="link">&gt; КАРТА САЙТА</a></div>
+                    <div class="menubtn"><a href="#" class="link">&gt; НОВЫЕ ВАКАНСИИ</a></div>
+                    <div class="menubtn"><a href="#" class="link">&gt; ПОДПИСКА</a></div>
+                    <div class="menubtn"><a href="#" class="link">&gt; ИНТЕРНЕТ МАГАЗИН</a></div>
+                    <div class="menubtn"><a href="#" class="link">&gt; ФАРМ-НАВИГАТОР</a></div>
+                    <div class="menubtn"><a href="#" class="link">&gt; КАК К НАМ ПРОЕХАТЬ</a></div>
+                    <div class="menubotoomstyle"><img src="img/menubottom.jpg" alt="Нижняя часть меню"></div>
+                </div></nav>
+            </div>
+            <div class="content">
+                <form class="dataform" onsubmit="confirm();">
+                    <div>
+                        <div><label>Имя:</label></div>
+                        <div><input id="first-name" type="text" class="fields"></div>
+                    </div>
+                    <div>
+                        <div><label>Фамилия:</label></div>
+                        <div><input id="surname" type="text" class="fields"></div>
+                    </div>
+                    <div>
+                        <div><label>Отчество:</label></div>
+                        <div><input id="patronymic" type="text" class="fields"></div>
+                    </div>
+                    <div>
+                        <div>Возраст</div>
+                    <div>
+                        <select id="age">
+                            <option></option>
+                            <option value="1">до 16</option>
+                            <option value="2">16-21</option>
+                            <option value="3">21-27</option>
+                            <option value="4">27-35</option>
+                            <option value="5">35-45</option>
+                            <option value="6">45-55</option>
+                            <option value="7">больше 55</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div><label>О себе:</label></div>
+                        <div><textarea id="about"></textarea></div>
+                    </div>
+                    <div><input type="submit" id="confirmbtn" value="Отправить" onclick="return confirm()"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
