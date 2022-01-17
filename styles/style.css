@@ -4,83 +4,72 @@
     height: 600px;
     background: white;
 }
-body
-{
+body{
     margin: 0px;
 }
-.header
-{
+.header{
     width: 780px;
     height: 174px;
 }
-#logo
-{
+#logo{
     margin-top: 7px;
     margin-left: 19px;
     width: 94px;
     height: 50px;
     background-color: white;
 }
-.buttons
-{
+.buttons{
     margin: 9px 0 0  5px;
-    float: left;  
+    float: left;
     font-size: 10px;
     font-family: "Times New Roman";
     color: black;
     line-height: 1;
-    text-align: center;       
+    text-align: center;
 }
-.first_hdr
-{
+.first_hdr{
     height: 174px;
     width: 217px;
     background: url(../img/hfirst.jpg) no-repeat;
     background-color: #90b0ce;
     float: left;
 }
-.second_hdr
-{
+.second_hdr{
     height: 114px;
     width: 162px;
     background: url(../img/hsecond.jpg) no-repeat;
     background-color: #90b0ce;
-    float: left; 
+    float: left;
 }
-.third_hdr
-{
-    float: left; 
+.third_hdr{
+    float: left;
     height: 114px;
     width: 141px;
     background: url(../img/hthird.jpg) no-repeat;
     background-color: #90b0ce;
 }
-.fourth_hdr
-{
-    float: left; 
+.fourth_hdr{
+    float: left;
     height: 114px;
     width: 105px;
     background: url(../img/hfour.jpg) no-repeat;
     background-color: #90b0ce;
 }
-.fifth_hdr
-{
-    float: left; 
+.fifth_hdr{
+    float: left;
     height: 114px;
     width: 155px;
     background: url(../img/hfive.jpg) no-repeat;
     background-color: #90b0ce;
 }
-.six_hdr
-{   
+.six_hdr{
     float: left;
     width: 563px;
     height: 60px;
     background: url(../img/hsix.jpg) no-repeat;
     background-color: #90b0ce;
 }
-.yellowstr
-{
+.yellowstr{
     float: left;
     width: 154px;
     height: 38px;
@@ -88,58 +77,50 @@ body
     background: url(../img/yellowstr.jpg) no-repeat;
     background-color: khaki;
 }
-.mail
-{
+.mail{
     float: left;
     height: 40px;
     width: 60px;
     margin: 3px 0px 0px 12px;
     background-color: #b3e6e7;
 }
-.price
-{
+.price{
     background-color: #b3e6e7;
     float: left;
     height: 40px;
     width: 60px;
     margin: 3px 0px 0px 7px;
 }
-.orders
-{
+.orders{
     float: left;
     height: 40px;
     width: 34px;
     margin: 3px 0px 0px 11px;
     background-color: #b3e6e7;
 }
-.shop
-{
+.shop{
     float: left;
     margin: 5px 0px 0px 5px;
 }
-.report
-{
+.report{
     float: left;
     margin: 5px 0px 0px 15px;
 }
-.login
-{  
+.login{
     text-align: right;
     font-size: 8px;
     font-family: "Verdana";
-    color: rgb(0, 0, 0);  
+    color: rgb(0, 0, 0);
     margin: 61px 12px 0px 0px;
 }
-.passwd
-{
+.passwd{
     text-align: right;
     font-size: 8px;
     font-family: "Verdana";
-    color: rgb(0, 0, 0);  
+    color: rgb(0, 0, 0);
     margin: 14px 12px 0px 0px;
 }
-.news
-{
+.news{
     float: left;
     font-size: 30px;
     font-family: "Arial";
@@ -147,24 +128,20 @@ body
     line-height: 1.2;
     margin: 22px 0px 0px 9px;
 }
-.input
-{
+.input{
     margin-top: 53px;
 }
-.input:last-child
-{
+.input:last-child{
     margin-top: 3px;
 }
 
-.inputfield
-{
+.inputfield{
     width: 120px;
     height: 12px;
     border: solid 1px;
     border-color: black;
 }
-.inbtn 
-{
+.inbtn {
     font-size: 8px;
     font-family: "Verdana";
     color: rgb(0, 0, 0);
@@ -172,12 +149,10 @@ body
     width: 71px;
     height: 20px;
 }
-.hdrlinks
-{
+.hdrlinks{
     margin-top: 57px;
 }
-.hdrlinkstyle
-{
+.hdrlinkstyle{
     display: block;
     text-decoration: none;
     color: white;
@@ -188,53 +163,45 @@ body
     line-height: 1.2;
     margin-right: 24px;
 }
-.mainpage
-{
+.mainpage{
     width: 780px;
     height: auto;
 }
-.left_menu
-{
+.left_menu{
     float: left;
     width: 157px;
     min-height: 426px;
     background-color: #e7e7e7;
     border-right: 1px solid black;
 }
-.menuicon
-{
+.menuicon{
     width: 156px;
     height: 55px;
     background-color: #7b95ce;
 }
-.menustyle
-{ 
+.menustyle{
     font-size: 10px;
     font-family: "Verdana";
     color: white;
 }
-.menubtn
-{
+.menubtn{
     width: 156px;
     height: 22px;
     background-image: url(../img/menubtn.jpg);
     background-color: #7b95ce;
 }
-.menubotoomstyle
-{
-    width: 156px; 
-    height: 23px; 
+.menubotoomstyle{
+    width: 156px;
+    height: 23px;
     background-color: #7b95ce;
 }
-.link
-{
+.link{
     display: block;
     padding: 6px 0px 0px 7px;
     text-decoration: none;
     color: white;
 }
-.content
-{
+.content{
     float: left;
     width: 623px;
     background-color: white;
@@ -242,14 +209,12 @@ body
     font-family: "Arial";
     color: rgb(4, 4, 4);
 }
-.borderinside
-{
+.borderinside{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-.topik1
-{
+.topik1{
     margin: 17px 0px 0px 22px;
     width: 597px;
     padding-bottom: 12px;
@@ -257,16 +222,14 @@ body
     background: url(../img/arrow.jpg) no-repeat;
     background-position: left 0px top 4px;
 }
-.topik2
-{
+.topik2{
     margin: 7px 0px 0px 22px;
     width: 597px;
     border-bottom: 1px solid #4c6bb1;
     background: url(../img/arrow.jpg) no-repeat;
     background-position: left 0px top 4px;
 }
-.topik3
-{
+.topik3{
     margin: 7px 0px 0px 22px;
     width: 597px;
     padding-bottom: 5px;
@@ -274,8 +237,7 @@ body
     background: url(../img/arrow.jpg) no-repeat;
     background-position: left 0px top 4px;
 }
-.topik4
-{
+.topik4{
     width: 597px;
     margin: 9px 0px 0px 22px;
     padding-bottom: 5px;
@@ -283,42 +245,36 @@ body
     background: url(../img/arrow.jpg) no-repeat;
     background-position: left 0px top 4px;
 }
-.date
-{
+.date{
     color: red;
     font-size: 12px;
 }
-.content-text
-{
+.content-text{
     margin-left: 18px;
     text-align: left;
-    
+
 }
-.undertext
-{
+.undertext{
     font-size: 12px;
     color: #4c6bb1;
 }
-.more
-{
+.more{
     text-decoration: none;
     color:#6888fe;
     font-size: 8px;
-    font-family: Arial;   
+    font-family: Arial;
 }
 .article{
     margin: 0px;
     padding: 7px 25px 0px 15px;
     text-indent: 20px;
 }
-.redirect
-{
+.redirect{
     text-align: center;
     font-size: 25px;
     font-family: "Arial";
 }
-.buttons a
-{
-    text-decoration: none; 
+.buttons a{
+    text-decoration: none;
     color: black;
 }
